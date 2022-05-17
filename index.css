@@ -1,0 +1,69 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #0f172a;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-family: "roboto";
+  color: #f8fafc;
+  text-align: center;
+}
+
+/* .rcb-image {
+  height: 100px;
+  width: 100px;
+}
+
+.csk-image {
+  height: 100px;
+  width: 100px;
+} */
+
+.block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .rcb-image {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .csk-image {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .csk-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .rcb-image {
+    height: 250px;
+    width: 250px;
+  }
+}
